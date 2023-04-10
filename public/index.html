@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skoldsjo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/avatar.css">
 </head>
 <body>
     <div class="header">
@@ -20,11 +21,20 @@
 
     <div class="hero">
         <div class="left-side">
-            <img src="./images/leme.jpg" alt="">
-        </div>
-
-        <div class="button-container">
-            <button><a href="#portfolio">Portfolio</a></button>
+            <div class="avatar-container">
+                <div class="circle">
+                    <div class="avatarBox">
+                        <i class="fa-solid fa-user fa-beat"></i>
+                        <p class="avatar-text">About Me</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>Kim Sköldsjö</h1>
+                    <p>Sweden</p>
+                    <p>Web Developer / Freelancer</p>
+                </div>
+                <img src="./images/leme.jpg" alt="" class="portrait">
+            </div>
         </div>
 
         <div class="right-side">
@@ -77,22 +87,36 @@
                     <img src="./images/ML-Skog-Responsive.svg" alt="">
             </div>
         </div>
+        
         <div class="card">
             <div class="projects">
-                <img src=".//images/Ongoing.svg" alt="">
+                <img src="./images/Karlskoga Mekaniska.svg" alt="">
             </div>
+            <div class="projects">
+                <a href="http://www.karlskogamekaniska.se" target="_blank">
+                    <h3>Karlskoga Mekaniska</h3>
+                </a>
+                <p>Business Card Landing Page</p>
+            </div>
+        </div>
+
+        <div class="card">
             <div class="projects">
                 <h3>Work in progress</h3>
                 <p>Nästa projekt ute snart!</p>
             </div>
+            <div class="projects">
+                <img src=".//images/Ongoing.svg" alt="">
+            </div>
         </div>
+
         <div class="card">
+            <div class="projects">
+                <img src="./images/Next.svg" alt="">
+            </div>
             <div class="projects">
                 <h3>Står du på tur?</h3>
                 <p>Hör av dig för mer info</p>
-            </div>
-            <div class="projects">
-                <img src="./images/Next.svg" alt="">
             </div>
         </div>
     </div>
